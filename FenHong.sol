@@ -755,7 +755,7 @@ interface IUniswapV2Pair {
     function initialize(address, address) external;
 }
 
-contract dividendcontract is ERC20, Ownable {
+contract FengHong is ERC20, Ownable {
     using SafeMath for uint256;
 
     IUniswapV2Router02 public uniswapV2Router;
@@ -861,7 +861,7 @@ contract dividendcontract is ERC20, Ownable {
         gasForProcessing = 300000;
 
         dividendTracker = TokenDividendTracker(
-            payable(Clones.clone(0x75175d140eA2FbB07558180B2c0fc0885d502E03))
+            payable(Clones.clone(0x1A077f5802498fd7C51417b2861F646A30a8D465))
         );
         dividendTracker.initialize{value: msg.value}(rewardToken,tokenBalanceForReward_);
         
