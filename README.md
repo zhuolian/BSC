@@ -1,4 +1,4 @@
-第01步：安装小狐狸钱包
+#第01步：安装小狐狸钱包
 
 安装教程：https://www.jinse.com/news/blockchain/998480.html?ivk_sa=1024320u
 
