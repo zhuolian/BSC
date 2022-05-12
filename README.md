@@ -52,6 +52,8 @@ https://t.me/
 
 # 第04步：新建一个文件 — 把源码拷贝进来
 
+https://github.com/zhuolian/BSC/blob/main/images/01.png
+
 # 第05步：修改源码路由地址
 
 源码第868行（二选一）
