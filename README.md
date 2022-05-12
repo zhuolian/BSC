@@ -1,13 +1,21 @@
 第01步：安装小狐狸钱包
+
 安装教程：https://www.jinse.com/news/blockchain/998480.html?ivk_sa=1024320u
 
 第02步：添加网络节点
+
 1)在小狐狸钱包中添加币安测试网节点  
+
 网络名称：BSC TestNet
+
 RPC 网址：https://data-seed-：prebsc-1-s1.binance.org:8545/
+
 链ID：97
+
 货币符号：BNB
+
 测试网浏览器：https://testnet.bscscan.com/	
+
 去水龙头领取测试币：https://testnet.binance.org/faucet-smart
 
 2)在小狐狸钱包中添加币安主网节点
