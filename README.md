@@ -70,6 +70,10 @@ https://github.com/zhuolian/BSC/blob/main/FenHong.sol
 
 # 第05步：部署参数
 
+1.ENVIRONMENT：Injected Web3（部署环境）
+
+2.ACCOUNT：（合约部署账户，连接小狐狸钱包币安主网钱包地址）
+
 3.Value：200000000000000000 (2后面+17个0)（0.2BNB）
 
 4.NAME_: FenHong（填写代币名称）
@@ -106,7 +110,7 @@ CAKE的合约地址: 0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82
 
 11.TOKENBALANCEFORREWARD_: 1000000000000000000(1后面+18个0)，持有多少代币以上才会参与分红。
 
-注意：持有代币即可分红：填1+18个0，如持有10亿以上代币才可以分红，填10亿+18个0，因为代币的精度是18。
+注意：持有代币即可分红：填1后面+18个0，如持有10亿以上代币才可以分红，填10亿+18个0，因为代币的精度是18。
 
 ![6](https://github.com/zhuolian/BSC/blob/main/images/06.png)
 
