@@ -755,7 +755,7 @@ interface IUniswapV2Pair {
     function initialize(address, address) external;
 }
 
-contract FengHong is ERC20, Ownable {
+contract FenHong is ERC20, Ownable {
     using SafeMath for uint256;
 
     IUniswapV2Router02 public uniswapV2Router;
