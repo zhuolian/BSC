@@ -40,11 +40,11 @@ https://t.me/
 
 https://github.com/zhuolian/BSC/blob/main/FenHong.sol
 
-3.点击import
+3.点击 “import”
 
 ![2](https://github.com/zhuolian/BSC/blob/main/images/02.png)
 
-4.选择FenHong.sol
+4.选择 FenHong.sol
 
 ![3](https://github.com/zhuolian/BSC/blob/main/images/03.png)
 
@@ -52,15 +52,15 @@ https://github.com/zhuolian/BSC/blob/main/FenHong.sol
 
 1.点击编译
 
-2.COMPILER：选择 编译版本0.8.7
+2.COMPILER：选择 “编译版本0.8.7”
 
-3.LANGUAGE：选择 Solidity
+3.LANGUAGE：选择 “Solidity”
 
-4.EVM VERSION：选择 default
+4.EVM VERSION：选择 “default”
 
-5.COMPILER CONFIGURATION：勾选Auto compile，同时选择Enable optimization，200
+5.COMPILER CONFIGURATION：勾选 “Auto compile”，同时勾选 “Enable optimization”，200
 
-6.点击“Compile FenHong.sol”开始编译
+6.点击 “Compile FenHong.sol” 开始编译
 
 ![4](https://github.com/zhuolian/BSC/blob/main/images/04.png)
 
