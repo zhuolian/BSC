@@ -16,35 +16,25 @@ https://t.me/
 
 安装教程：https://www.jinse.com/news/blockchain/998480.html?ivk_sa=1024320u
 
-# 第02步：添加网络节点
+# 第02步：在小狐狸钱包添加主网节点
 
-1.在小狐狸钱包中添加币安测试网节点  
+1.网络名称：BSC
 
-1）网络名称：BSC TestNet
+2.RPC 网址：https://bsc-dataseed3.binance.org/
 
-2）RPC 网址：https://data-seed-：prebsc-1-s1.binance.org:8545/
+3.链ID：56
 
-3）链ID：97
+4.货币符号：BNB
 
-4）货币符号：BNB
+5.主网浏览器：https://bscscan.com/
 
-5）测试网浏览器：https://testnet.bscscan.com/	
+6.部署主网去交易所购买BNB币
 
-6）去水龙头领取测试币：https://testnet.binance.org/faucet-smart
+# 第03步：打开Remix：https://remix.ethereum.org
 
-2.在小狐狸钱包中添加币安主网节点
+点击GitHub
 
-1）网络名称：BSC
-
-2）RPC 网址：https://bsc-dataseed3.binance.org/
-
-3）链ID：56
-
-4）货币符号：BNB
-
-5）主网浏览器：https://bscscan.com/
-
-6）部署主网去交易所购买BNB币
+![1](https://github.com/zhuolian/BSC/blob/main/images/01.png)
 
 # 第03步：编译部署
 
