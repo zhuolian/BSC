@@ -1,8 +1,8 @@
-#第01步：安装小狐狸钱包
+# 第01步：安装小狐狸钱包
 
 安装教程：https://www.jinse.com/news/blockchain/998480.html?ivk_sa=1024320u
 
-第02步：添加网络节点
+# 第02步：添加网络节点
 
 1)在小狐狸钱包中添加币安测试网节点  
 
@@ -26,7 +26,7 @@ RPC 网址：https://bsc-dataseed3.binance.org/
 主网浏览器：https://bscscan.com/
 部署主网去交易所购买BNB币
 
-第03步：编译部署
+# 第03步：编译部署
 打开线编译工具：https://remix.ethereum.org/
 
 第04步：新建一个文件 — 把源码拷贝进来
