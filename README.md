@@ -66,7 +66,7 @@ IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0x10ED43C718714eb63d5aA
 
 # 第06步：部署参数
 
-1.SOLIDITY 编译器页面参数填写
+1.编译器页面参数填写
 
 1）COMPILER: v0.8.7+commit.e28d00a7.js
 
@@ -74,7 +74,7 @@ IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0x10ED43C718714eb63d5aA
 
 3）Other Settings: default evmVersion, MIT license
 
-2.SOLIDITY 部署和运行页面参数填写
+2.部署和运行页面参数填写
 
 1）Value：200000000000000000 (2后面+17个0)（0.2BNB）
 
@@ -88,7 +88,7 @@ IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0x10ED43C718714eb63d5aA
 
 6）REWARDADDR_:(要分红的代币合约，分红哪个代币，就填哪个代币的合约地址)
 
-注意：不能分红BNB和wbnb，因为现在WBNB也不走薄饼交易所了
+注意：不能分红BNB和WBNB，因为现在WBNB也不走薄饼交易所了
 
 BSC常用代币合约如下：
 
