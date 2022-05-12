@@ -46,27 +46,25 @@ https://github.com/zhuolian/BSC/blob/main/FenHong.sol
 
 4.选择FenHong.sol
 
-# 第03步：编译部署
+![3](https://github.com/zhuolian/BSC/blob/main/images/03.png)
 
-打开线编译工具：https://remix.ethereum.org/
+# 第04步：编译部署
 
-# 第04步：新建一个文件 — 把源码拷贝进来
+1.点击编译
 
-![1](https://github.com/zhuolian/BSC/blob/main/images/01.png)
+2.选择编译版本0.8.7
 
-# 第05步：修改源码路由地址
+3.LANGUAGE
 
-源码第868行（二选一）
+4.默认
 
-1.部署测试网，请使用测试网路由地址：0xB6BA90af76D139AB3170c7df0139636dB6120F7e
+5.优选
 
-IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0xB6BA90af76D139AB3170c7df0139636dB6120F7e);
+6.点击开始编译
 
-2.部署主网，请使用主网路由地址：0x10ED43C718714eb63d5aA57B78B54704E256024E
+![4](https://github.com/zhuolian/BSC/blob/main/images/04.png)
 
-IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0x10ED43C718714eb63d5aA57B78B54704E256024E);
-
-# 第06步：部署参数
+# 第05步：部署参数
 
 1.编译器页面参数填写
 
