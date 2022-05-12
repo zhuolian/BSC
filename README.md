@@ -18,33 +18,33 @@ https://t.me/
 
 # 第02步：添加网络节点
 
-1) 在小狐狸钱包中添加币安测试网节点  
+1.在小狐狸钱包中添加币安测试网节点  
 
-网络名称：BSC TestNet
+1）网络名称：BSC TestNet
 
-RPC 网址：https://data-seed-：prebsc-1-s1.binance.org:8545/
+2）RPC 网址：https://data-seed-：prebsc-1-s1.binance.org:8545/
 
-链ID：97
+3）链ID：97
 
-货币符号：BNB
+4）货币符号：BNB
 
-测试网浏览器：https://testnet.bscscan.com/	
+5）测试网浏览器：https://testnet.bscscan.com/	
 
-去水龙头领取测试币：https://testnet.binance.org/faucet-smart
+6）去水龙头领取测试币：https://testnet.binance.org/faucet-smart
 
-2) 在小狐狸钱包中添加币安主网节点
+2.在小狐狸钱包中添加币安主网节点
 
-网络名称：BSC
+1）网络名称：BSC
 
-RPC 网址：https://bsc-dataseed3.binance.org/
+2）RPC 网址：https://bsc-dataseed3.binance.org/
 
-链ID：56
+3）链ID：56
 
-货币符号：BNB
+4）货币符号：BNB
 
-主网浏览器：https://bscscan.com/
+5）主网浏览器：https://bscscan.com/
 
-部署主网去交易所购买BNB币
+6）部署主网去交易所购买BNB币
 
 # 第03步：编译部署
 
@@ -56,11 +56,11 @@ RPC 网址：https://bsc-dataseed3.binance.org/
 
 源码第868行（二选一）
 
-1）部署测试网，请使用测试网路由地址：0xB6BA90af76D139AB3170c7df0139636dB6120F7e
+1.部署测试网，请使用测试网路由地址：0xB6BA90af76D139AB3170c7df0139636dB6120F7e
 
 IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0xB6BA90af76D139AB3170c7df0139636dB6120F7e);
 
-2）部署主网，请使用主网路由地址：0x10ED43C718714eb63d5aA57B78B54704E256024E
+2.部署主网，请使用主网路由地址：0x10ED43C718714eb63d5aA57B78B54704E256024E
 
 IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0x10ED43C718714eb63d5aA57B78B54704E256024E);
 
