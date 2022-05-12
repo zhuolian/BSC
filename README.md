@@ -32,9 +32,19 @@ https://t.me/
 
 # 第03步：打开Remix：https://remix.ethereum.org
 
-点击GitHub
+1.点击GitHub
 
 ![1](https://github.com/zhuolian/BSC/blob/main/images/01.png)
+
+2.输入合约地址
+
+https://github.com/zhuolian/BSC/blob/main/FenHong.sol
+
+3.点击import
+
+![2](https://github.com/zhuolian/BSC/blob/main/images/02.png)
+
+4.选择FenHong.sol
 
 # 第03步：编译部署
 
