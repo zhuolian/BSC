@@ -1,13 +1,3 @@
-/* 编译/开源参数 */
-
-     /* COMPILER: v0.8.7+commit.e28d00a7.js */
-     /* Enable optimization: 开启并使用默认值200 */
-     /* Other Settings: default evmVersion, MIT license */
-
-/* 遇到问题可联系TG： */
-
-     /* 电报： https://t.me/zvx_Staff */
-     /* TG群： https://t.me/ZVX_Official */
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
