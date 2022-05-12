@@ -52,7 +52,7 @@ https://github.com/zhuolian/BSC/blob/main/FenHong.sol
 
 1.点击编译
 
-2.COMPILER：选择 “编译版本0.8.7”
+2.COMPILER：选择 “v0.8.7+commit.e28d00a7.js”
 
 3.LANGUAGE：选择 “Solidity”
 
@@ -65,16 +65,6 @@ https://github.com/zhuolian/BSC/blob/main/FenHong.sol
 ![4](https://github.com/zhuolian/BSC/blob/main/images/04.png)
 
 # 第05步：部署参数
-
-1.编译器页面参数填写
-
-1）COMPILER: v0.8.7+commit.e28d00a7.js
-
-2）Enable optimization: 开启并使用默认值200
-
-3）Other Settings: default evmVersion, MIT license
-
-2.部署和运行页面参数填写
 
 1）Value：200000000000000000 (2后面+17个0)（0.2BNB）
 
