@@ -112,5 +112,7 @@ CAKE的合约地址: 0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82
 
 注意：持有代币即可分红：填1后面+18个0，如持有10亿以上代币才可以分红，填10亿+18个0，因为代币的精度是18。
 
+12.点击 “stansact” 开始部署
+
 ![6](https://github.com/zhuolian/BSC/blob/main/images/06.png)
 
