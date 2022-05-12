@@ -2,10 +2,10 @@
 支持分红SHIB/ETH/USDT/DOGE等BSC所有代币。
 
 源码：
-https://github.com/tmimehi/dividendcontract/blob/main/dividendcontract.sol
+https://github.com/zhuolian/BSC/blob/main/FenHong.sol
 
 如果遇到问题可联系TG：
-https://t.me/zhuocheng
+https://t.me/hanzhuocheng
 
 TG电报群交流群
 https://t.me/
@@ -86,7 +86,9 @@ IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0x10ED43C718714eb63d5aA
 
 5）TOTALSUPPLY_: 100000000(发行总量，发多少就写多少)
 
-5）REWARDADDR_:(要分红的代币合约，分红哪个代币，就填哪个代币的合约地址，不能分红BNB和wbnb，因为现在WBNB也不走薄饼交易所了)
+6）REWARDADDR_:(要分红的代币合约，分红哪个代币，就填哪个代币的合约地址)
+
+注意：不能分红BNB和wbnb，因为现在WBNB也不走薄饼交易所了
 
 BSC常用代币合约如下：
 
@@ -106,14 +108,14 @@ BUSD的合约地址: 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56
 
 CAKE的合约地址: 0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82 
 
-6）MARKETINGWALLETADDR_:(填写自己的市场营销钱包地址) 
+7）MARKETINGWALLETADDR_:(填写自己的市场营销钱包地址) 
 
-7）BUYFEESETTING_:[4,3,2,1]，买入收取手续费比例：分别为(分红、流动性、市场营销、销毁燃烧)
+8）BUYFEESETTING_:[4,3,2,1]，买入收取手续费比例：分别为(分红、流动性、市场营销、销毁燃烧)
 
-8）SELLFEESETTING_: [5,4,3,2]，卖出收取手续费比例：分别为(分红、流动性、市场营销、销毁燃烧)
+9）SELLFEESETTING_: [5,4,3,2]，卖出收取手续费比例：分别为(分红、流动性、市场营销、销毁燃烧)
 
 注意：上述四个手续费参数可以任意设置，但是总和不能超过25%，例如[10,10,10,10]总和为40%，部署就会失败。
 
-9）TOKENBALANCEFORREWARD_: 1000000000000000000(1后面+18个0)，持有多少代币以上才会参与分红。
+10）TOKENBALANCEFORREWARD_: 1000000000000000000(1后面+18个0)，持有多少代币以上才会参与分红。
 
 注意：持有代币即可分红：填1+18个0，如持有10亿以上代币才可以分红，填10亿+18个0，因为代币的精度是18。
