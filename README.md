@@ -64,27 +64,27 @@ https://github.com/zhuolian/BSC/blob/main/FenHong.sol
 
 ![4](https://github.com/zhuolian/BSC/blob/main/images/04.png)
 
+7.选择 “FenHong.sol”
+
+![5](https://github.com/zhuolian/BSC/blob/main/images/05.png)
+
 # 第05步：部署参数
 
-1）Value：200000000000000000 (2后面+17个0)（0.2BNB）
+3.Value：200000000000000000 (2后面+17个0)（0.2BNB）
 
-2）CONTRACT 选择 dividendcontract，
+4.CONTRACT 选择 dividendcontract，
 
-3）NAME_: FenHong（填写代币名称）
+5.NAME_: FenHong（填写代币名称）
 
-4）symbol_: FH （填写代币简称）
+6.symbol_: FH （填写代币简称）
 
-5）TOTALSUPPLY_: 100000000(发行总量，发多少就写多少)
+7.TOTALSUPPLY_: 100000000(发行总量，发多少就写多少)
 
-6）REWARDADDR_:(要分红的代币合约，分红哪个代币，就填哪个代币的合约地址)
+8.REWARDADDR_:(要分红的代币合约，分红哪个代币，就填哪个代币的合约地址)
 
 注意：不能分红BNB和WBNB，因为现在WBNB也不走薄饼交易所了
 
 BSC常用代币合约如下：
-
-SHIB测试网合约地址:0x11e815a78Cc41D733Db00f06B3A96074855362CE
-
-USDT测试网合约地址:0xEdA5dA0050e21e9E34fadb1075986Af1370c7BDb
 
 SHIB的合约地址: 0x2859e4544C4bB03966803b044A93563Bd2D0DD4D
 
@@ -98,14 +98,17 @@ BUSD的合约地址: 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56
 
 CAKE的合约地址: 0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82 
 
-7）MARKETINGWALLETADDR_:(填写自己的市场营销钱包地址) 
+9.MARKETINGWALLETADDR_:(填写自己的市场营销钱包地址) 
 
-8）BUYFEESETTING_:[4,3,2,1]，买入收取手续费比例：分别为(分红、流动性、市场营销、销毁燃烧)
+10.BUYFEESETTING_:[4,3,2,1]，买入收取手续费比例：分别为(分红、流动性、市场营销、销毁燃烧)
 
-9）SELLFEESETTING_: [5,4,3,2]，卖出收取手续费比例：分别为(分红、流动性、市场营销、销毁燃烧)
+11.SELLFEESETTING_: [5,4,3,2]，卖出收取手续费比例：分别为(分红、流动性、市场营销、销毁燃烧)
 
 注意：上述四个手续费参数可以任意设置，但是总和不能超过25%，例如[10,10,10,10]总和为40%，部署就会失败。
 
-10）TOKENBALANCEFORREWARD_: 1000000000000000000(1后面+18个0)，持有多少代币以上才会参与分红。
+12.TOKENBALANCEFORREWARD_: 1000000000000000000(1后面+18个0)，持有多少代币以上才会参与分红。
 
 注意：持有代币即可分红：填1+18个0，如持有10亿以上代币才可以分红，填10亿+18个0，因为代币的精度是18。
+
+![5](https://github.com/zhuolian/BSC/blob/main/images/05.png)
+
